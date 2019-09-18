@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam_Eva</title>
+    <style>
+        #conter {
+
+            width: 650px;
+            height: 600px;
+            border: 1px solid yellow;
+
+        }
+        #adam{
+            float: left;
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+
+        }
+        #eva{
+          float: right;
+            width: 300px;
+            height: 300px;
+            border: 1px solid blue;
+
+        }
+
+    </style>
+    <script src="adamEva.js"></script>
+</head>
+<body>
+<div id ="conter">
+    <div>
+        <input type ="button" onclick="check(apple);" value="Check Apple"/>
+    </div>
+<div id ="adam">
+    <p>Adam</p>
+    <input type="button" value="EatApple" onclick="eatApple(adam);" />
+    <input type="button" value="Speaking" onclick="speaking(adam);" />
+    <input type="button" value="checkApple" onclick="checkApple(adam);" />
+    <input type="button" value="chechWeight" onclick="checkWeight(adam);" />
+
+</div>
+    <div id ="eva">
+        <p>Edam</p>
+        <input type="button" value="EatApple" onclick="" />
+        <input type="button" value="Speaking" onclick="" />
+        <input type="button" value="checkApple" onclick="" />
+        <input type="button" value="chechWeight" onclick="" />
+    </div>
+</div>
+</body>
+</html>
